@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--this haxxy shit right here takes care of timing out when you try to use https-->
+    <script>
+      var host = "www.thenerdherd.cc";
+      if ((host == window.location.host) && (window.location.protocol != "http:")) window.location.protocol = "http";
+    </script>
+
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
@@ -8,11 +14,9 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <title>The Nerd Herd by TheNerdHerd</title>
+    <title>The Nerd Herd</title>
   </head>
-
   <body>
-
     <header>
       <div class="container">
         <h1>The Nerd Herd</h1>
@@ -27,6 +31,7 @@
     <div class="container">
       <section id="main_content">
         <h1>
+<<<<<<< HEAD
 <a id="under-construction" class="anchor" href="#under-construction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Under Construction</h1>
 
 <p>Please check back soon.</p>
@@ -42,4 +47,21 @@
 
 
   </body>
+=======
+          <a id="under-construction" class="anchor" href="#under-construction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Under Construction
+        </h1>
+        <p>Please check back soon.</p>
+        <h2>
+          <a id="projects" class="anchor" href="#projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>Projects
+        </h2>
+        <h3>
+          <a id="protocal" class="anchor" href="#protocal" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="protocal.html">Protocal</a>
+        </h3>
+      </section>
+    </div>
+
+    <script src="javascript/main.js"></script> <!--Puttin this down here cause that makes the page load faster and shit-->
+  </body>
+
+>>>>>>> refs/remotes/origin/master
 </html>
