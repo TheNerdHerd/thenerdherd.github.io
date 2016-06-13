@@ -1,12 +1,54 @@
 body {
 	background-color: black;
 	font-family: monospace;
+	color: #00FF00;
 }
+
 h1 {
-	color: #00FF00;
 	text-align: center;
 }
-h2 {
-	color: #00FF00;
+
+h2, h3 {
+	margin-left: 1em;
+}
+
+#nav {
+	margin-top: 3em;
+}
+
+#nav not(:last-child) {
+	float: left;
+}
+
+#nav > a {
+	font-size: 3em;
+	text-decoration: none;
+	margin-left: 1em;
+	color: #00FF00
+}
+
+#nav > a:hover {
+	color: #FFFFFF;
+}
+
+#footer {
+	margin-top: 4em;
+}
+
+#footer > p {
+	font-size: 1em;
 	text-align: center;
+}
+
+#summary {
+	font: 1.5em monospace;
+	margin-left: 1em
+}
+
+#dramatic {
+	color: red;
+}
+
+body > p {
+	margin-left: 1em
 }
