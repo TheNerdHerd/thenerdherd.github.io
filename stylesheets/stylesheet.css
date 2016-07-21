@@ -129,7 +129,7 @@ dt {
   font-weight: bold;
 }
 
-ul li {
+/*ul li {
   list-style: none;
 }
 
@@ -141,7 +141,7 @@ ul li:before {
   margin-left: -37px;
   margin-right: 21px;
   line-height: 16px;
-}
+}*/
 
 blockquote {
   color: #aaa;
@@ -227,8 +227,8 @@ hr {
 */
 
 a {
-  color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  color: #b5e853;
+  text-decoration: none;
 }
 
 /* Clearfix */
@@ -246,45 +246,55 @@ a {
   zoom:1;
 }
 
-/*code adapted from http://www.w3schools.com/howto/howto_js_dropdown.asp*/
-/* Dropdown Button */
-.dropbtn {
-    background-color: #1A237E;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+/*shit for the dropdown*/ 
+.nav {
+margin:0;
+padding:0;
+list-style:none;
 }
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+.nav li {
+float:left; 
+width:150px;
+position:relative;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
+
+.nav li a {
+display:block; 
+padding:8px 7px 8px 7px;
+text-decoration:none; 
+text-align:center;
+}
+.nav li a:hover {
+color:#FFFFFF;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #000000;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+.nav ul {
+position:absolute;
+left:0;
+display:none; 
+margin:0 0 0 -1px;
+padding:0;
+list-style:none;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: #b5e853;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+.nav ul li {
+width:150px;
+float:left;
+border-top:none;
 }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-/*end copied code*/
+
+.nav ul a {
+display:block; 
+height:15px;
+padding:8px 7px 13px 7px;
+text-decoration:none;
+border-top:none;
+}
+
+.nav ul a:hover {
+color:#FFFFFF;
+}
