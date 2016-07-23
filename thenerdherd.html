@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+	    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+	    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+	    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+
+    	<title>The Nerd Herd</title>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    	<script>
+	    $(document).ready(function () {
+				// hover property will help us set the events for mouse enter and mouse leave
+				$('.nav li').hover(
+				// When mouse enters the .navigation element
+					function () {
+						//Fade in the navigation submenu
+						$('ul', this).fadeIn(); // fadeIn will show the sub cat menu
+					},
+					// When mouse leaves the .navigation element
+					function () {
+					//Fade out the navigation submenu
+						$('ul', this).fadeOut(); // fadeOut will hide the sub cat menu
+					}
+				);
+			});
+		</script>
+	</head>
+	<body>
+	    <header>
+	      <div class="container">
+	        <h1>The Nerd Herd</h1>
+
+	        <!--<section id="downloads">
+	          <a href="https://github.com/TheNerdHerd" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+	        </section>-->
+	      </div>
+	    </header>
+	    <!-- nav bar-->
+		  <ul class="nav">
+		  	<li><a href="index.html">Home</a></li>
+		  	<li><a href="under_construction.html">About us</a>
+		  		<ul>
+		  			<li><a href="thenerdherd.html">The Nerd Herd</a></li>
+						<li><a href="joshua.html">Joshua's Portfolio</a></li>
+					</ul>
+				</li>
+		  	<li><a href="under_construction.html">Projects</a>
+		  		<ul>
+		  			<li><a href="protocal.html">Protocal</a></li>
+		  			<li><a href="under_construction.html">Robotics</a></li>
+
+		  		</ul>
+		  	</li>
+		  	<li><a href="under_construction.html">Contact us</a></li>
+		  </ul>
+
+		  <h1>Who are we?</h1>
+		  <div class="text">
+		  	<p>
+		  		The Nerd Herd is a group of close friends "straight outta" the American Midwest. Being self-proclaimed nerds, we take pride in our social satire, our deep philosophical conversations, and our video games.
+		  	</p> 
+		  </div>
+		  <h1>Social Satire?</h1>
+		  <div class="text">
+		  	<p>
+		  		Yes, that's right. Some would classify us as politically incorrect, we prefer the term "observant".
+		  	</p>
+		  </div>
+		  <h1>Philosophical Conversations</h1>
+		  <div class="text">
+			  <p>
+			 		Possessing differing philosophies, we enjoy debating each other. This manifests itself in many ways including our exploratory discussions of various philosophies, our friendly political banter, and our deep examinations of various social issues.
+			  </p>
+		  </div>
+		  <h1>Video Games</h1>
+		  <div class="text">
+		  	<p>
+		  		Yes, we enjoy video games very much. Once every month or so, we get together at someone's house and stay up all night playing video games with each other over LAN: a LAN party. Despite the LAN party's being antiquated by the general availability of fast internet, we still enjoy gaming in the company of each other more than over a VOIP chat.
+		  	</p>
+		  </div>
+	</body>
+</html>

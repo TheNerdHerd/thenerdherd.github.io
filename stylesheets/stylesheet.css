@@ -21,9 +21,6 @@ section {
   margin: 0 0 20px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 20px;
-}
 
 li {
   line-height: 1.4 ;
@@ -83,16 +80,6 @@ header h2 {
 }
 section img {
   max-width: 100%
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
-  letter-spacing: -0.03em;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
 }
 
 #main_content h1 {
@@ -297,4 +284,19 @@ border-top:none;
 
 .nav ul a:hover {
 color:#FFFFFF;
+}
+
+
+h1 {
+  color: #FFFFFF;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.text {
+  font-style: italic;
+  margin-left: 50px;
+  margin-right: 50px;
 }
