@@ -40,7 +40,8 @@
 	    <!-- nav bar-->
 		  <ul class="nav">
 		  	<li><a href="index.html">Home</a></li>
-		  	<li><a href="thenerdherd.html">About us</a></li>
+		  	<li><a href="thenerdherd.html">About us</a>
+				</li>
 		  	<li><a href="under_construction.html">Projects</a>
 		  		<ul>
 		  			<li><a href="protocal.html">Protocal</a></li>
@@ -52,30 +53,16 @@
 		  </ul>
 		  
 		  <br/>
-
-		  <p class = "text_title">Who are we?</div>
-		  <div class="text">
-		  	<p>
-		  		The Nerd Herd is a group of close friends "straight outta" the American Midwest. Being self-proclaimed nerds, we take pride in our social satire, our deep philosophical conversations, and our video games.
-		  	</p> 
-		  </div>
-		  <p class = "text_title">Social Satire?</div>
-		  <div class="text">
-		  	<p>
-		  		Yes, that's right. Some would classify us as politically incorrect, we prefer the term "observant".
-		  	</p>
-		  </div>
-		  <p class = "text_title">Philosophical Conversations</div>
-		  <div class="text">
-			  <p>
-			 		Possessing differing philosophies, we enjoy debating each other. This manifests itself in many ways including our exploratory discussions of various philosophies, our friendly political banter, and our deep examinations of various social issues.
-			  </p>
-		  </div>
-		  <p class = "text_title">Video Games</div>
-		  <div class="text">
-		  	<p>
-		  		Yes, we enjoy video games very much. Once every month or so, we get together at someone's house and stay up all night playing video games with each other over LAN: a LAN party. Despite the LAN party's being antiquated by the general availability of fast internet, we still enjoy gaming in the company of each other more than over a VOIP chat.
-		  	</p>
-		  </div>
+		  
+		  <p class = "text_title">Email the Admin (Joshua)</p>
+		  <p class= "text">admin@thenerdherd.cc</p>
+		  
+		  <p class= "text_title">The Nerd Herd public IRC channel</p>
+		  <p class= "text">##TheNerdHerd on Freenode</p>
+		  
+		  <p class= "text_title">Discord</p>
+		  <p class= "text">Email the admin for a Discord link (eventually we will make it open)</p>
+		  
+		  
 	</body>
 </html>
